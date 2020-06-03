@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <input type="text" placeholder="Search" class="search__input">
+            <div class="header__content">
+                <a href="#" class="profile__name">
+                    <img src="img/medium.svg" alt="" class="header__photo">
+                    <span class="header__name">Mateusz</span>
+                </a>
+                <a href="#" class="header__btn">Home</a>
+                <a href="#" class="header__btn">Create</a>
+                <div class="header__icons header__btn">
+                    <a href="" class="icons__link"><i class="fa fa-user-plus " aria-hidden="true"></i></a>
+                    <a href="" class="icons__link"><i class="fa fa-commenting-o icon" aria-hidden="true"></i></a>
+                    <a href="" class="icons__link"><i class="fa fa-bell-o " aria-hidden="true"></i></a>
+                </div>
+                <a href="#" class="header__info">
+                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="wrapper">
+            <nav class="nav">
+                <div class="my__profile"><img src="img/medium.svg" alt="" class="header__photo"> <span>Mateusz Wierzbicky</span></div>
+                <div class="nav__item active"><i class="fa fa-list" aria-hidden="true"></i> <span>News Feed</span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                <div class="nav__item"><i class="fa fa-commenting-o" aria-hidden="true"></i> <span>Messages</span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                <div class="nav__item"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>Marketplace</span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                <div class="nav__section-name"> Shortcuts </div>
+                <div class="nav__item"><i class="fa fa-trophy" aria-hidden="true"></i> <span>Product Design</span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                <div class="nav__item"><i class="fa fa-trophy" aria-hidden="true"></i> <span>UX & UI</span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                <div class="nav__item"><i class="fa fa-trophy" aria-hidden="true"></i> <span>Figma</span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                <div class="nav__item"><i class="fa fa-trophy" aria-hidden="true"></i> <span>Ant Design</span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                <div class="nav__section-name"> Explore </div>
+                <div class="nav__item"><i class="fa fa-flag-o" aria-hidden="true"></i> <span>Pages</span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                <div class="nav__item"><i class="fa fa-headphones" aria-hidden="true"></i> <span>Groups</span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                <div class="nav__item"><i class="fa fa-home" aria-hidden="true"></i> <span>Events</span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                <div class="nav__item"><i class="fa fa-rocket" aria-hidden="true"></i> <span>Games</span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                <div class="see__more"><i class="fa fa-caret-down" aria-hidden="true"></i> <span>See more...</span></div>
+            </nav>
+            <div class="main">
+                <div class="create__post">
+                    <div class="create__post-header">Create post</div>
+                    <div class="create__text">
+                        <img src="img/medium.svg">
+                        <input type="text" placeholder="What's on your mind, Mateusz?">
+                    </div>
+                    <div class="create__post-btns">
+                        <div class="create__post-btn">
+                            <i class="fa fa-picture-o" aria-hidden="true"></i> Photo/Video
+                        </div>
+                        <div class="create__post-btn">
+                            <i class="fa fa-user-plus" aria-hidden="true"></i> Tag friends
+                        </div>
+                        <div class="create__post-btn">
+                            <i class="fa fa-smile-o" aria-hidden="true"></i> Feeling/Activities
+                        </div>
+                        <div class="create__post-btn dots">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i> 
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post__header">
+                        <div class="post__header-profile">
+                            <div class="post__avatar">
+                                <img src="img/medium.svg" alt="">
+                            </div>
+                            <div class="post__name">
+                                <div class="name">Mateusz Wierzbicky</div>
+                                <div class="undername"><span class="dot">3 hrs </span><i class="fa fa-cog" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <div class="options"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="post__text">
+                        <p>
+                            Did you know that all of this was made using only components and styles from Ant Design System for Figma? <br><br>
+                            Learn more: <a href="https://antforfigma.com" target="_blank">https://antforfigma.com</a>
+                        </p>
+                    </div>
+                    <div class="post__img">
+                        <img src="img/IMG.png" alt="">
+                        <span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 23</span>
+                    </div>
+                    <div class="post__btns">
+                        <div class="post__btn"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Like</div>
+                        <div class="post__btn"><i class="fa fa-commenting-o" aria-hidden="true"></i> Comment</div>
+                        <div class="post__btn"><i class="fa fa-share-alt" aria-hidden="true"></i> Share</div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post__header">
+                        <div class="post__header-profile">
+                            <div class="post__avatar">
+                                <img src="img/ellipse2.png" alt="">
+                            </div>
+                            <div class="post__name">
+                                <div class="name">Figma</div>
+                                <div class="undername"><span class="dot">8 hrs </span><i class="fa fa-cog" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <div class="options"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="post__text">
+                        <p>
+                            📙 Want to implement type in your design system in Figma? This guide covers everything you should consider, from choosing the right typography scale to naming and organizing your text styles.
+                        </p>
+                    </div>
+                    <div class="post__btns">
+                        <div class="post__btn"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Like</div>
+                        <div class="post__btn"><i class="fa fa-commenting-o" aria-hidden="true"></i> Comment</div>
+                        <div class="post__btn"><i class="fa fa-share-alt" aria-hidden="true"></i> Share</div>
+                    </div>
+                </div>
+            </div>
+            <div class="site__info">
+                <div class="stories">
+                    <div class="stories__header">
+                        <div>Stories</div>
+                        <div class="stories__links">
+                            <a href="" class="stories__link dot"><i class="fa fa-clock-o" aria-hidden="true"></i> Archive</a>
+                            <a href="" class="stories__link"> Settings</a>
+                        </div>
+        
+                    </div>
+                    <div class="stories__item">
+                        <div class="stories__item-img"><img src="img/text.png" alt=""></div>
+                        <div class="stories__text">
+                            <div class="stories__acc-name">Add to your story</div>
+                            <div class="stories__desc">Share a photo or video or write something</div>
+                            
+                        </div>
+        
+                    </div>
+                    <div class="stories__item">
+                        <div class="stories__item-img"><img src="img/ellipse.png" alt=""></div>
+                        <div class="stories__text">
+                            <div class="stories__acc-name">Concuria</div>
+                            <div class="stories__desc">4 hours ago</div>
+                            
+                        </div>
+        
+                    </div>
+                    <div class="stories__item">
+                        <div class="stories__item-img"><img src="img/Ellipse2.png" alt=""></div>
+                        <div class="stories__text">
+                            <div class="stories__acc-name">Figma</div>
+                            <div class="stories__desc">5 hours ago</div>
+                            
+                        </div>
+        
+                    </div>
+                    <div class="stories__item">
+                        <div class="stories__item-img"><img src="img/ellipse10.png" alt=""></div>
+                        <div class="stories__text">
+                            <div class="stories__acc-name">Ant Design</div>
+                            <div class="stories__desc">6 hours ago</div>
+                            
+                        </div>
+        
+                    </div>
+                </div>
+                <div class="birthday">  
+                    <i class="fa fa-gift" aria-hidden="true"></i> <span class="name">John Doe</span>'s dirthday today
+                </div>
+                <div class="page__stats">
+                    <div class="stats__header">
+                        <span>Your Page</span><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        
+                    </div>
+                    <div class="stats__content">
+                        <div class="stats__content-img">
+                            <img src="img/ellipse.png" alt="">
+                        </div>
+                        <div class="stats__content-text">
+                            <div class="stories__acc-name">Concuria</div>
+                            <span class="stats__content-text-item"><i class="fa fa-commenting-o" aria-hidden="true"></i> Message</span>
+                            <span class="stats__content-text-item"><i class="fa fa-bell-o" aria-hidden="true"></i> Notifications <span class="count">1</span></span>
+                        </div>
+                    </div>
+                    <div class="stats__btns">
+                            <div class="stats__btn stats__btn-active">likes</div>
+                            <div class="stats__btn">views</div>
+                            <div class="stats__btn">posts</div>
+                    </div>
+                    <div class="stats">
+                        <span class="stat__num">267</span>
+                        <span class="stat__week">5 likes this week</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
